@@ -14,7 +14,7 @@ import router from './router'
     Vue.use(iView)
     {{/if_eq}}
 //elment-ui
-      {{#if_qs frameworks "element-ui"}}
+      {{#if_eq frameworks "element-ui"}}
     import ElementUI from 'element-ui'
     import 'element-ui/lib/theme-chalk/index.css'
       Vue.use(ElementUI)
